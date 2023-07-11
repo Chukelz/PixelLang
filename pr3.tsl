@@ -1,0 +1,12 @@
+~ t1 = read tile1.tl
+~ t2 = reflectY t1
+~ t3 = reflectX t1
+~ t4 = reflectY t3
+~ t5 = blank 3
+~ t6 = hJoin t1 hJoin t2 t5
+~ t7 = hJoin t5 hJoin t3 t4
+~ t8 = vJoin t6 t7
+~ t9 = reflectX t8
+~ t10 = hJoin t8 t9
+~ t11 = repeatY 30 repeatX 10 t10
+

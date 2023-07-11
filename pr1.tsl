@@ -1,0 +1,7 @@
+~ t1 = read tile1.tl
+~ t2 = read tile2.tl
+~ t3 = hJoin t1 t2
+~ t4 = hJoin t2 t1
+~ t5 = vJoin t3 t4
+~ t6 = repeatX 32 t5
+~ t7 = repeatY 32 t6

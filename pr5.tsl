@@ -1,0 +1,10 @@
+~ t1 = read tile1.tl
+~ t2 = cut t1 (0,0) 6 6
+~ t3 = cut t1 (2,2) 6 6
+~ t4 = cut t1 (4,4) 6 6
+~ t5 = repeatX 3 t2
+~ t6 = repeatX 3 t3
+~ t7 = repeatX 3 t4
+~ t8 = vJoin t5 vJoin t6 t7
+
+

@@ -1,0 +1,11 @@
+~t1 = read tile1.tl
+~t2 = rotate 1 t1
+~t3 = rotate 2 t1
+~t4 = rotate 3 t1
+~t5 = hJoin t1 t2
+~t6 = hJoin t4 t3
+~t7 = vJoin t5 t6
+~t8 = scale 3 t7
+~t9 = repeatX 5 t7
+~t10 = repeatY 5 t9
+~t11 = paste (8,8) t10 t8
